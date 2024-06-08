@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> My Art Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Marcus Lee Thomson</h1>
+    <p>Digital Artist | Painter | Illustrator</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.php">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <h2>Welcome to My Art World</h2>
+    <h4><p>Where My Mind And Reality Collide</p></h4>
+  </section>
+
+  <h2><p>Click on the Artwork to see the full size</p></h2>
+
+  <section id="portfolio" class="gallery">
+    <!-- Add your art gallery/portfolio content here -->
+
+    <!--First Image-->
+    
+    <div class="artwork">
+      <div class="image-left">
+      <img src="Images/IMG-20240119-WA0003.jpg" alt="Artwork 2" height= 500px width= 400px" onclick="openNewTab('Images/IMG-20240119-WA0003.jpg')">
+    </div>
+
+      <p><div class="text-right">
+        <br>
+        <b>NAME OF ARTWORK:</b> Person Infected With Cordyceps (side)<br>
+        <br>
+        <b>DATE OF CREATION:</b> 21 / 11 / 2023 <br>
+        <br>
+        <b>MEDIA/STYLE:</b> Realism
+        <br>
+        <br>
+        <b>DESCRIPTION:</b> This sculpture was a project for college where we could do anything we want as long as it was along the lines of one of these titles: rotting, growing, consumerism, etc. I went with the idea of someone being infected and slowly dying. I was also inspired by one of my favourite games 'The Last Of Us' which is about A cordycep species called Ophiocordyceps unilateralis that is made into a virus by scientist. Which then turns people into bloated zombies releasing spores wherever it walks. I love this idea of something that already existing in the world evolving into something much more lethal. I wanted to explore this process and how it would develop in a person anatomically. <br>
+
+      </div></p>
+      </div>
+
+    <!--Second Image-->
+
+    <div class="artwork">
+    <p><div class="text-left">
+      <br>
+           <b>NAME OF ARTWORK:</b> Person Infected With Cordyceps (front)<br>
+          <br>
+           <b>DATE OF CREATION:</b> 21 / 11 / 2023 <br>
+           <br>
+      <b>MEDIA/STYLE:</b> Realism
+      <br>
+      <br>
+           <b>DESCRIPTION:</b> This sculpture was a project for college where we could do anything we want as long as it was along the lines of one of these titles: rotting, growing, consumerism, etc. i went with the idea of someone being infected and slowly dying. I was also inspired by one of my favourite games 'The Last Of Us' which is about A cordycep species called Ophiocordyceps unilateralis that is made into a virus by scientist. which then turns people into bloated zombies releasing spores wherever it walks. i love this idea of something that already existing in the world evolving into something much more lethal. I wanted to explore this process and how it would develop in a person anatomically.<br>
+
+     </div>
+    
+    <div class="image-right">
+      <img src="Images/IMG-20240119-WA0002.jpg" alt="Artwork 2" height= 500px width= 400px" onclick="openNewTab('Images/IMG-20240119-WA0002.jpg')">
+    </div></p>
+  </div>
+
+    <!-- Add more artworks as needed -->
+  </section>
+
+  <script>
+      // JavaScript function to open a new tab
+      function openNewTab(imageUrl) {
+          window.open(imageUrl, '_blank');
+      }
+  </script>
+
+  <footer>
+    <p>&copy; 2024 Marcus Lee Thomson. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

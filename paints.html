@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> My Art Portfolio</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Marcus Lee Thomson</h1>
+    <p>Digital Artist | Painter | Illustrator</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.php">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero">
+    <h2>Welcome to My Art World</h2>
+    <h4>
+      <p>Where My Mind And Reality Collide</p>
+    </h4>
+  </section>
+
+  <h2>
+    <p>Click on the Artwork to see the full size</p>
+  </h2>
+
+  <div class="artwork">
+    <div class="image-left">
+      <img src="Images/IMG-20240119-WA0001.jpg" alt="Artwork 1" height=300px width=400px"
+        onclick="openNewTab('Images/IMG-20240119-WA0001.jpg')"><br />
+    </div>
+
+    <p>
+    <div class="text-right">
+      <b>NAME OF ARTWORK:</b> Painting in First Person<br>
+      <br>
+      <b>DATE OF CREATION:</b> 20/06/2022 <br>
+      <br>
+      <b>DESCRIPTION:</b> This was the final I made to help me achieve a higher qualification (SQA). I did this with
+      acrylice paint in a very warm palette. Using warm, harmonious colours made the painting have a major visual
+      impact, almost looking like a dream. I like this piece because I experimented with an artstyle that I enjoyed. I
+      used a dabbing motion with an old brush and alot of paint to create this "spikey" look. I also like that with this
+      style you can see the forms of the objects so you can understand what's there but theyre slightly blurred.<br>
+
+    </div>
+    </p>
+  </div>
+  <br>
+
+  <!-- Add more artworks as needed -->
+  </section>
+
+  <script>
+    // JavaScript function to open a new tab
+    function openNewTab(imageUrl) {
+      window.open(imageUrl, '_blank');
+    }
+  </script>
+
+  <footer>
+    <p>&copy; 2024 Marcus Lee Thomson. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

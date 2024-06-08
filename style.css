@@ -1,0 +1,252 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(Images/1155124.jpg);
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: #333;
+  background-image: url('Images/vector-abstract-low-poly-banner-design.jpg');
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin: 20px;
+}
+
+nav {
+  background-color: #444;
+  background-image: url('Images/vector-abstract-low-poly-banner-design.jpg');
+  padding: 0.5em;
+  text-align: center;
+  margin: 20px;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footernav {
+  font-size: 10px;
+  border-width: 1px;
+  text-align: center;
+  padding: 10px;
+  float: right;
+  background: transparent;
+
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-image: url('Images/vector-abstract-low-poly-banner-design.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  text-align: center;
+  font-size: 21px;
+  padding: 50px;
+}
+
+.artwork {
+  margin: 10px;
+  display:flex;
+}
+
+.catagory {
+  display: inline-block;
+  margin: 10px;
+}
+
+.gallery{
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  background-image: url('Images/vector-abstract-low-poly-banner-design.jpg');
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin: 20px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: black;
+  font-size: 28px;
+}
+
+ /* CONTACT ME FORM  */ -------------------------------------------------
+
+.contact-form {
+  max-width: 100%;
+  padding: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #1f1919;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  ;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+p {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Style for the button container */
+.social-button {
+  display: inline-block;
+  /* Ensures that the button takes only as much width as necessary */
+  overflow: hidden;
+  /* Hides any content that might overflow */
+  margin: right;
+
+
+}
+
+/* Style for the social media icon/image */
+.social-button img {
+  width: 50px;
+  /* Set the width of the icon */
+  height: auto;
+  /* Maintain the aspect ratio */
+  transition: transform 0.3s ease;
+  /* Add a transition effect for hover */
+
+}
+
+/* Adjust the hover effect (optional) */
+.social-button:hover img {
+  transform: scale(1.2);
+  /* Increase the size on hover */
+}
+
+/* ABOUT ME  */ ---------------------------------------------
+
+.about-section {
+  align-items: center;
+}
+
+.profile img {
+  text-align: center;
+  border-radius: 50%;
+  width: 250px;
+  /* Adjust the width as needed */
+  height: 250px;
+  /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+
+.profile img:hover {
+  
+  transform: rotate(360deg) scale(1.8); /*rotate and spin of image*/
+  transition: all 0.2s ease-in-out 0s; /* animation of About me image */
+}
+
+.bio {
+  max-width: auto;
+  text-align: center;
+  padding-right: 300px;
+  padding-left: 300px;
+  font-size: 20px;
+}
+
+/* TEXT NEXT TO IMAGES  */ ------------------------------------------------
+
+.image-left {
+  text-align: center;
+  display: float;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.image-right {
+  text-align: right;
+  display: float;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-right {
+  font-size: 23px;
+  text-align: left;
+  /* padding-top: 2%; */
+  max-width: 100%;
+  background-color: darkgray;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  opacity: 0.7;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.text-left {
+  font-size: 23px;
+  text-align: left;
+  /* padding-top: 2%; */
+  max-width: 100%;
+  background-color: darkgray;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  opacity: 0.7;
+  border: 2px solid black;
+  margin: 20px;
+}
