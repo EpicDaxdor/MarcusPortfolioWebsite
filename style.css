@@ -196,7 +196,7 @@ h3 {
 .profile img:hover {
   
   transform: rotate(360deg) scale(1.8); /*rotate and spin of image*/
-  transition: all 0.2s ease-in-out 0s; /* animation of About me image */
+  transition: all 0.5s ease-in-out 0s; /* animation of About me image */
 }
 
 .bio {
