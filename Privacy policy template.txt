@@ -1,4 +1,4 @@
-Privacy Policy for [Your Website Name]
+Privacy Policy for www.marcusleethomson.com
 
 Effective Date: [Date]
 
@@ -6,7 +6,7 @@ Last Updated: [Date]
 
 Introduction
 
-In the digital age, safeguarding personal data is of paramount importance. At [Your Website Name], we are dedicated to upholding your privacy and protecting your personal information. This Privacy Policy is designed to explain how we gather, utilize, disclose, and safeguard your personal data when you access and use our website. Your use of our website implies your consent to the practices detailed herein.
+In the digital age, safeguarding personal data is of paramount importance. At marcusleethomson.com, we are dedicated to upholding your privacy and protecting your personal information. This Privacy Policy is designed to explain how we gather, utilize, disclose, and safeguard your personal data when you access and use our website. Your use of our website implies your consent to the practices detailed herein.
 
 Information We Collect
 
@@ -96,4 +96,4 @@ Contact Us
 
 If you have questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at [Your Contact Information].
 
-This Privacy Policy was last updated on [Date].
+This Privacy Policy was last updated on 15/6/2024.
